@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Revisit the body and anchor declarations and reset their color to text-color */
+body {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/* Revisit the section-tagline and card-category declarations and reset their color to color-primary */
+.card-category {
+  color: var(--color-primary); 
+}
+
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Target the root element and define custom color properties */
+:root {
+ --color-primary: #d73953;
+ --color-black: #090909;
+ --color-white: #ffffff;
+ --color-light-grey: #f3f3f3;
+ --color-dark-grey: #353535;
+ --text-color: var(--color-black);
+}
