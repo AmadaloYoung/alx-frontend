@@ -25,7 +25,7 @@ html {
     color: var(--color-primary);
   }
   
-  /* argeting the root element, create 2 custom font-family properties font-family-base and font-family-title */
+  /* Targeting the root element, create 2 custom font-family properties font-family-base and font-family-title */
   :root {
    --color-primary: #d73953;
    --color-black: #090909;
