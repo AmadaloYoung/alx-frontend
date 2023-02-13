@@ -33,18 +33,9 @@ html {
    --color-light-grey: #f3f3f3;
    --color-dark-grey: #353535;
    --text-color: var(--color-black);
-   /* set the first choice font as Helvetica Neue */
-   --font-family-base: Helvetica Neue;
-   --font-family-title: Helvetica Neue;
-   /* set the second choice font as Helvetica */
-   --font-family-base: Helvetica;
-   --font-family-title: Helvetica;
-   /* set the third choice font as Arial */
-   --font-family-base: Arial;
-   --font-family-title: Arial;
-   /* set the last choice font as sans-serif */
-   --font-family-base: sans-serif;
-   --font-family-title: sans-serif;
+   /* set the first choice font as Helvetica Neue, set the second choice font as Helvetica, set the third choice font as Arial and set the last choice font as sans-serif*/
+   --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+   --font-family-title: Helvetica Neue Helvetica, Arial, sans-serif; 
   }
 
   /* Create a new declaration targeting all 6 levels of section headings, positioned before the links declaration and set its font-family to font-family-title */
