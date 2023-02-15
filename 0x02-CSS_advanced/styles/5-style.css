@@ -18,7 +18,7 @@
  /* All fonts in the html element should be at 62.5% of their normal size */
 html {
     scroll-behavior: smooth;
-    size: 62.5%;
+    font-size: 62.5%;
 }
   
   /* Any fonts in the body should have their sizes set to font-size-medium */
