@@ -99,6 +99,7 @@
   /* Following the section-body declaration, target the section-footer class, pad all 4 sides with section-footer-padding and set the horizontal alignment with section-footer-align */
   .section-footer{
     padding: var(--section-footer-align);
+    text-align: var(--section-footer-align);
   }
 
   .section-title {
