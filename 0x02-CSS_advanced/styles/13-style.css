@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
 a:link {
   color: var(--text-color);
-  text-decoration: underline; 
+  text-decoration: none; 
 }
 
 /* Target the visited state for the link and Italicize the text */
