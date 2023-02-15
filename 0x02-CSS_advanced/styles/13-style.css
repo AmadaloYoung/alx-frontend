@@ -43,23 +43,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
-a:link[href] {
+a:link {
   color: var(--text-color);
   text-decoration: underline; 
 }
 
 /* Target the visited state for the link and Italicize the text */
-a:visited[href] {
+a:visited {
   font-style: italic;
 }
 
 /* Target the hover state for the link and Decorate the links with an underline when hovering */
-a:hover[href] {
+a:hover {
   text-decoration: underline;
 }
 
 /* Target the active state for the link and Set the color of the background with the variable color-light-grey */
-:active[href] {
+:active {
   border-color: var(--color-light-grey);
 }
 
