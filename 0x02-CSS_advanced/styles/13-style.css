@@ -60,7 +60,7 @@ a:hover {
 
 /* Target the active state for the link and Set the color of the background with the variable color-light-grey */
 :active {
-  border-color: var(--color-light-grey);
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
