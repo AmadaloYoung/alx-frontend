@@ -1,0 +1,37 @@
+ /* Section HERO
+      ============================= */
+  
+      .section-hero {
+        position: relative;
+        margin-top: -8.5rem;
+      }
+      
+      /* Inside the hero-homepage class selector, update some values */
+      .hero-homepage {
+        background-image: url(images/banner-home.jpg);
+        background-position: 65% 8rem;
+        background-repeat: no-repeat;
+        background-size: 90rem auto;
+      }
+      
+      .section-hero .section-body {
+        padding: 10rem 4rem;
+      }
+      
+      .section-hero .section-category {
+        color: var(--color-white);
+        text-transform: uppercase;
+      }
+      
+      .section-hero .section-title {
+        margin-bottom: 5rem;
+      }
+      
+        /* Inside the selector that targets section-inner class inside section-hero class */
+      .section-hero .section-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        min-height: 35vh;
+      }
