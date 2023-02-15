@@ -53,9 +53,9 @@ a {
   color: var(--color-primary); 
 }
   
-/* ust above the section-tagline declaration, create a new declaration targeting the class section-header, Set horizontal alignment of that class with section-header-align */
+/* Just above the section-tagline declaration, create a new declaration targeting the class section-header, Set horizontal alignment of that class with section-header-align */
 .section-header{
-  align-self: var(--section-header-align);
+  text-align: var(--section-header-align);
 }
 
 .section-tagline {
