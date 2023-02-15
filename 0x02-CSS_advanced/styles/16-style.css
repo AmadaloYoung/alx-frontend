@@ -92,7 +92,7 @@ color: var(--section-title-color);
 }
 
 /* After the styles for .section-tagline,Target the container class and set the following: 960px wide and evenly distribute the margins on both the left and and right side   */
-.class {
+.container {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
